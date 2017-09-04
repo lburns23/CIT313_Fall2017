@@ -4,7 +4,8 @@
 
 <?php include 'header.php';?>
 <h1><?php echo "$myName" ;?> </h1>
-<ul></ul>
+<ul><?php $x=1 
+while($x => 1) {echo $myArray; $x++ ;?></ul>
 <?php include 'footer.php';?>
 <?php
 $myArray = array ('myName'  => 'Laura Burns',
