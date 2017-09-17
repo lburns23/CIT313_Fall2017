@@ -9,7 +9,7 @@
 	echo "User Level: ".$registeredUser->userLevel."<br/>";
 	echo "Registered User ID: ".$registeredUser->userName."<br/>";
 	echo "Registered User Type: ".$registeredUser->userType."<br/>";
-			
+	
     $registeredUser->setInfo('Billy');
 	$fName = $registeredUser->getInfo();
 	echo "Registered First Name: " .$fName. "<br/>";
