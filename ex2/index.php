@@ -22,6 +22,7 @@
 	$emailAd = $registeredUser->getInfo();
 	echo "Registered Email: " .$emailAd. "<br/>";
 	
+	//This adds the line to separate the two accounts.
 	echo "<th colspan=\"8\"><hr width=\"100%\"></th>";
 	
 	echo "User Level: ".$admin->userLevel."<br/>";
