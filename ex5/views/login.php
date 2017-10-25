@@ -15,7 +15,13 @@ include('elements/header.php')
         <?php
    }
         ?>
-   
+   <div class="container">
+    <div class="alert alert-warning">
+<?php
+echo $_SESSION["notAdmin"]; 
+$_SESSION["notAdmin"] = null;?>
+</div>
+</div>
    <?php include('elements/login_form.php');?>
    
   </div>

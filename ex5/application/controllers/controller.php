@@ -14,7 +14,8 @@ class Controller {
 		$u = new Users();
 		
 		if($this->access == 1 && !$u->isAdmin()) {
-		$_SESSION['redirect'] = $view;			
+		$_SESSION["notAdmin"] = "You need admin credentials to access next page.";
+		$_SESSION['redirect'] = $view;	
 		header('Location: '.BASE_URL.'login/');
 		}
 		else {
