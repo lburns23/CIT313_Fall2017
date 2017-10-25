@@ -2,19 +2,19 @@
 
 <fieldset>
 <legend>Register Today!</legend>
-<label for="first_name">First Name: <?=REQFIELD?></label>
+<label for="first_name">First Name:<font color="#FF0000">*</font></label>
 <input type="text" id="first_name" name="first_name" value="<?php echo $first_name;?>" maxlength="20" required="first_name" />
 <br />
             
-<label for="last_name">Last Name: <?=REQFIELD?></label>
+<label for="last_name">Last Name: <font color="#FF0000">*</font></label>
 <input type="text" class="txt" id="last_name" name="last_name" value="<?php echo $last_name;?>" maxlength="20" required="last_name" />
 <br />
  
-<label for="email">E-mail Address: <?=REQFIELD?></label>
+<label for="email">E-mail Address: <font color="#FF0000">*</font></label>
 <input type="text" class="txt" id="email" name="email" value="<?php echo $email;?>" maxlength="100" required="email" />
 <br />
 
-<label for="password">Password: <?=REQFIELD?></label>
+<label for="password">Password: <font color="#FF0000">*</font></label>
 <input type="password" class="txt" id="password" name="password" value="<?php echo $password;?>" maxlength="100" required="password" />
 
 <br />
