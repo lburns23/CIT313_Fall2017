@@ -1,7 +1,8 @@
 <?php include('views/elements/header.php');?>
 <?php
 if( is_array($post) ) {
-extract($post); }?>
+    extract($post);
+}?>
 
     <div class="container">
         <div class="page-header">
@@ -14,5 +15,6 @@ extract($post); }?>
 
 
     </div>
+
 
 <?php include('views/elements/footer.php');?>

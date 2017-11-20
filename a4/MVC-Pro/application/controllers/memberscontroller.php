@@ -21,5 +21,4 @@ class MembersController extends Controller{
 	}
 	
 }
-
 ?>

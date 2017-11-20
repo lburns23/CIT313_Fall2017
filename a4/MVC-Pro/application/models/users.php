@@ -65,7 +65,7 @@ class Users extends Model{
 		if($limit > 0){
 			$numusers = ' LIMIT '.$limit;
 		}
-		$sql = 'SELECT uID, first_name, last_name, email, password FROM users'.$numusers;
+		$sql = 'SELECT uID, first_name, last_name, email, password FROM users';
 		
 		// perform query
 		$results = $this->db->execute($sql);

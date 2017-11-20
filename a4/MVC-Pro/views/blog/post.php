@@ -1,9 +1,7 @@
-
 <?php include('views/elements/header.php');?>
 <?php
 if( is_array($post) ) {
     extract($post);
-
 }?>
 
     <div class="container">

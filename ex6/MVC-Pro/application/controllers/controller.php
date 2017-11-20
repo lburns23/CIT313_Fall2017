@@ -60,7 +60,7 @@ class Controller {
 	*The index() method is the one run if no task method is run. Here as a placeholder for child classes.
 	*/
 	public function index(){
-	
+		$this->defaultTask();
 	}
 	
 	
@@ -72,7 +72,9 @@ class Controller {
 		$this->data[$key] = $value;
 		
 	}
-
+	public function defaultTask(){
+		
+	}
 
 
 }
