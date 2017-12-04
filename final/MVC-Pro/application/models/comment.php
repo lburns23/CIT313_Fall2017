@@ -29,8 +29,9 @@ class Comment extends Model{
 	  $this->db->execute($sql,$data);
       
 	  $message = 'Comment added.';
-        
+	   
 	  return $message;
+	 
     }
 	
     public function deleteComment($commentID) {

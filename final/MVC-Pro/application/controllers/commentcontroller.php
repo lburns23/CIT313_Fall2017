@@ -17,18 +17,11 @@ class CommentController extends Controller{
 
         $result = $this->commentObject->addComment($data);
 
-        $this->set('messsage', $result);
+        $this->set('message', $result);
 
         header('Location: '.BASE_URL.'blog/post/'.$_POST['postID']);
 	}
 	
-	public function get() {
-		
-		
-		
-		
-		
-	}
 	 public function remove($commentID){
 		 
         $this->commentObject = new Comment();
@@ -37,7 +30,7 @@ class CommentController extends Controller{
 		
         $result = $this->commentObject->deleteComment($commentID);
 		
-        $this->set('messsage', $result);
+        $this->set('message', $result);
 		
 		header('Location: '.BASE_URL.'blog/post/'.$comment['postID']);
     }

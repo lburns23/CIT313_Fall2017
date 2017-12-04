@@ -33,7 +33,7 @@ if( is_array($post) ) {
         ?>
 		<div class="container">
 		<br/>
-            <p>You must <a href="<?php echo BASE_URL ?>login/">log in</a> to post a comment.</p>
+            <p>You must <a href="<?php echo BASE_URL;?>login/">log in</a> to post a comment.</p>
 		</div>
 		 <br/>
         <?php
